@@ -1,0 +1,89 @@
+.css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* Centraliza horizontal */
+  justify-content: center; /* Centraliza vertical */
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza texto dentro do container */
+}
+
+h1 {
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 100%;              /* Ocupa toda a largura disponível do container */
+  max-width: 300px;         /* Limite pra não ficar exagerado */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;   /* Garante que padding não estoure a largura */
+  text-align: left;         /* Texto alinhado à esquerda */
+}
+
+.button {
+  display: flex;
+  justify-content: center; /* Centraliza os botões */
+  gap: 15px; /* Espaçamento entre eles */
+  margin-top: 15px;
+  justify-content: left;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  justify-content: left ;
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #c82333;
+} 
+
+
+
